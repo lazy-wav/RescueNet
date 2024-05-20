@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face { 
+    font-family: "geist-black"; 
+    src: url("../../public/assets/Geist.Mono/GeistMono-Black.otf") 
+}
+@font-face { 
+    font-family: "geist-light"; 
+    src: url("../../public/assets/Geist.Mono/GeistMono-Light.otf") 
+}
+@font-face { 
+    font-family: "geist-regular"; 
+    src: url("../../public/assets/Geist.Mono/GeistMono-Regular.otf") 
+}
+@font-face { 
+    font-family: "geist-bold"; 
+    src: url("../../public/assets/Geist.Mono/GeistMono-Bold.otf") 
+}
+@font-face { 
+    font-family: "geist-medium"; 
+    src: url("../../public/assets/Geist.Mono/GeistMono-Medium.otf") 
+}
+
+body{
+    background-color: #E1F6F8;
+    text-align: center;
+    padding: 0 !important;
+}
